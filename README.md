@@ -38,8 +38,11 @@ First, create backups of the existing progress.py and images.py files located in
 #### Replace Files
 Download the new progress.py and images.py files. Replace the original files in the stable-diffusion-webui/modules/ directory with the downloaded ones.
 
-#### Update Manually (If Needed)
-If you are not using AUTOMATIC1111's v1.9.4, you may need to manually update the files instead of replacing them. I haven't tested another versions. Just in case I will show how to do it manually.
+#### 4. Restart Stable Diffusion
+After making these changes, restart Stable Diffusion. You can then open your HTML file from any desired location and start using it.
+
+## Edit Original Python Files Manually (If Needed)
+If you are not using AUTOMATIC1111's v1.9.4, you may need to manually edit the files instead of replacing them. I haven't tested another versions. Just in case I will show how to do it manually.
 
 #### For images.py:
 1. Open stable-diffusion-webui/modules/images.py in a text editor.
@@ -54,7 +57,7 @@ image.save(file_path_temp)
 
 Save the file and close it.
 
-For progress.py:
+#### For progress.py:
 1. Open stable-diffusion-webui/modules/progress.py in a text editor.
 2. Add `import os` to the import section.
 3. Replace the entire `progressapi` function with the following code:
@@ -127,5 +130,3 @@ def progressapi(req: ProgressRequest):
 
 Save the file and close it.
 
-#### 4. Restart Stable Diffusion
-After making these changes, restart Stable Diffusion. You can then open your HTML file from any desired location and start using it.
