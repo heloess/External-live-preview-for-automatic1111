@@ -31,16 +31,16 @@ On Linux `file:///home/yourpath/stable-diffusion-webui/outputs/saved.png`
 Save the file and close it.
 
 ### 3. Replace your Python Files
-###### Backup Existing Files
+#### Backup Existing Files
 First, create backups of the existing progress.py and images.py files located in the stable-diffusion-webui/modules/ directory.
 
-##### Replace Files
+#### Replace Files
 Download the new progress.py and images.py files. Replace the original files in the stable-diffusion-webui/modules/ directory with the downloaded ones.
 
-##### Update Manually (If Needed)
+#### Update Manually (If Needed)
 If you are not using AUTOMATIC1111's v1.9.4, you may need to manually update the files instead of replacing them. I haven't tested another versions. Just in case I will show how to do it manually.
 
-##### For images.py:
+#### For images.py:
 1. Open stable-diffusion-webui/modules/images.py in a text editor.
 2. Search for `namegen = FilenameGenerator(p, seed, prompt, image)` using Ctrl+F.
 3. Below that line, add the following code block:
