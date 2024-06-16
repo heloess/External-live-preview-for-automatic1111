@@ -1,4 +1,4 @@
-## External Live Preview for AUTOMATIC1111
+## External Live Preview for AUTOMATIC1111 Stable Diffusion web UI
 
 
 https://github.com/heloess/External-live-preview-for-automatic1111/assets/96503452/b246ff09-a9bb-4130-b722-2525adfc87a5
