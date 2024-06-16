@@ -26,6 +26,7 @@ In the HTML file, you will find TWO instances of the following line:
 Update these lines with your actual file path. For example:
 
 On Windows: `file:///C:/yourpath/stable-diffusion-webui/outputs/saved.png`
+
 On Linux `file:///home/yourpath/stable-diffusion-webui/outputs/saved.png`
 
 Save the file and close it.
