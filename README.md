@@ -38,7 +38,7 @@ First, create backups of the existing progress.py and images.py files located in
 Download the new progress.py and images.py files. Replace the original files in the stable-diffusion-webui/modules/ directory with the downloaded ones.
 
 ##### Update Manually (If Needed)
-If you are not using AUTOMATIC1111's v1.9.4, you may need to manually update the files instead of replacing them. I haven't tested another versions. Just in case I will show you how to do it manually.
+If you are not using AUTOMATIC1111's v1.9.4, you may need to manually update the files instead of replacing them. I haven't tested another versions. Just in case I will show how to do it manually.
 
 ##### For images.py:
 1. Open stable-diffusion-webui/modules/images.py in a text editor.
