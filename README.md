@@ -41,7 +41,7 @@ Download the new progress.py and images.py files. Replace the original files in 
 #### 4. Restart Stable Diffusion
 After making these changes, restart Stable Diffusion. You can then open your HTML file from any desired location and start using it.
 
-## Edit Original Python Files Manually (If Needed)
+## Editing Original Python Files Manually (If Needed)
 If you are not using AUTOMATIC1111's v1.9.4, you may need to manually edit the files instead of replacing them. I haven't tested another versions. Just in case I will show how to do it manually.
 
 #### For images.py:
