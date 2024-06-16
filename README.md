@@ -44,11 +44,12 @@ If you are not using AUTOMATIC1111's v1.9.4, you may need to manually update the
 1. Open stable-diffusion-webui/modules/images.py in a text editor.
 2. Search for `namegen = FilenameGenerator(p, seed, prompt, image)` using Ctrl+F.
 3. Below that line, add the following code block:
-
-`current_dir = os.getcwd()
+   
+```python
+current_dir = os.getcwd()
 file_path_temp = os.path.join(current_dir, "outputs", "saved.png")
 image.save(file_path_temp)
-`
+```
 
 Save the file and close it.
 
