@@ -84,8 +84,8 @@ def progressapi(req: ProgressRequest):
 
     progress = min(progress, 1)
 
-    # Check if progress is 99% or more
-    if progress >= 0.99:
+    # Check if progress is 95% or more
+    if progress >= 0.95:
         return ProgressResponse(active=False, queued=False, completed=True, id_live_preview=-1, textinfo="Completed")
 
     elapsed_since_start = time.time() - shared.state.time_start
