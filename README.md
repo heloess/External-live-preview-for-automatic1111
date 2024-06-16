@@ -10,11 +10,15 @@ https://github.com/heloess/External-live-preview-for-automatic1111/assets/965034
 
 
 ### Installing Steps
-1. Edit the HTML File
-2. Replace Python Files
-3. Restart Stable Diffusion
+1. Download Files
+2. Edit the HTML File
+3. Replace Python Files
+4. Restart Stable Diffusion
 
-### 1. Edit the HTML File
+### 1. Download Files
+Download all files.
+
+### 2. Edit the HTML File
 In the HTML file, you will find TWO instances of the following line:
 
 `file:///your/path/stable-diffusion-webui/outputs/saved.png`
@@ -26,7 +30,7 @@ On Linux `file:///home/yourpath/stable-diffusion-webui/outputs/saved.png`
 
 Save the file and close it.
 
-### 2. Replace your Python Files
+### 3. Replace your Python Files
 ###### Backup Existing Files
 First, create backups of the existing progress.py and images.py files located in the stable-diffusion-webui/modules/ directory.
 
@@ -121,5 +125,5 @@ def progressapi(req: ProgressRequest):
 
 Save the file and close it.
 
-#### Restart Stable Diffusion
+#### 4. Restart Stable Diffusion
 After making these changes, restart Stable Diffusion. You can then open your HTML file from any desired location and start using it.
